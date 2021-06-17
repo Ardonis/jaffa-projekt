@@ -1,0 +1,19 @@
+#productView {
+    .carousel-indicators {
+        li {
+            height: auto;
+            border: 1px solid transparent;
+            width: auto;
+            text-indent: 0%;
+
+            &.active {
+                border-color: red;
+            }
+        }
+
+        img {
+            border-radius: 42px;
+            border: solid 1px #c4c4c4;
+        }
+    }
+}
