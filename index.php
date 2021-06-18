@@ -55,7 +55,7 @@
                                     <a class="nav-link" href="#">Team</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Gallery</a>
+                                    <a class="nav-link" href="gallery.php">Gallery</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Contact</a>
@@ -389,7 +389,7 @@
                 <p class="mb-3">Subscribe to get our latest promotions</p>
             </div>
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <input type="text" class="form-control" placeholder="Your Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
                 <div class="input-group-append">
                     <button class="btn btn-outline-secondary" type="button" id="button-addon2"></button>
                 </div>
@@ -399,7 +399,7 @@
     </div>
     <footer>
         <div class="container">
-            <div class="row mt-5 p-5">
+            <div class="row mt-5 p-5 footer">
                 <div class="col-md-3">
                     <div class="logo-icon">
                         <img src="./assets/img/jaffa_logo.png" />
@@ -407,7 +407,7 @@
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </p>
                 </div>
                 <div class="col-md-3 link">
-                    <ul class="link">
+                    <ul>
                         <li>Meet Olarm</li>
                         <li>Features</li>
                         <li>Plans</li>
@@ -416,7 +416,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3 link">
-                    <ul class="link">
+                    <ul>
                         <li>Contact Us</li>
                         <li>Terms of Service</li>
                         <li>Privacy</li>
@@ -424,50 +424,52 @@
                         <li>FAQ's</li>
                     </ul>
                 </div>
-                <div class="col-md-3 link">
-                    <div class="social-media">
-                        <img src="./assets/img/svg_images/instagram.svg" alt="">
-                        <img src="./assets/img/svg_images/youtube.svg" alt="">
+                    <div class="col-md-3 social-media">
+                        <div>
+                            <img src="./assets/img/svg_images/instagram.svg" alt="">
+                            <img src="./assets/img/svg_images/youtube.svg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
         $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 3
-                    },
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
 
-                }
-            })
-            (function() {
-                'use strict';
-                window.addEventListener('load', function() {
-                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                    var forms = document.getElementsByClassName('needs-validation');
-                    // Loop over them and prevent submission
-                    var validation = Array.prototype.filter.call(forms, function(form) {
-                        form.addEventListener('submit', function(event) {
-                            if (form.checkValidity() === false) {
-                                event.preventDefault();
-                                event.stopPropagation();
-                            }
-                            form.classList.add('was-validated');
-                        }, false);
-                    });
-                }, false);
-            })();
+            }
+        })
+    </script>
+    <script>
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
     </script>
 
 </body>
