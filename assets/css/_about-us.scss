@@ -1,0 +1,35 @@
+.overflow-​hidden {
+    overflow: hidden;
+
+    .right-text {
+        .card-body {
+            text-align: left;
+        }
+    }
+}
+
+
+.card-body {
+    .card-text {
+        text-align: center;
+    }
+}
+
+.pink-smoothie {
+    background-color: red;
+    padding: 20px;
+
+    .smoothie {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+        .smoothie-text {
+            color: #ffffff;
+            font-weight: lighter;
+            margin: 0;
+
+        }
+    }
+}

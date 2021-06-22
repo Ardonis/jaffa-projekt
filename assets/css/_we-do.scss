@@ -1,0 +1,54 @@
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 58px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+
+
+.slider-title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+
+
+.owl-carousel {
+    .item {
+        display: flex;
+        align-items: center;
+
+        p {
+            padding: 20px;
+        }
+
+        .quotes {
+            span {
+                color: red;
+                font-size: 5rem;
+            }
+        }
+    }
+}

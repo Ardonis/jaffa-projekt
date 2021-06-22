@@ -1,0 +1,44 @@
+.overflow-​hidden {
+    overflow: hidden;
+
+    .contact-form {
+        position: relative;
+        background-color: rgb(212, 206, 206);
+    
+
+        input {
+            width: 280px;
+            height: 68px;
+            border-radius: 16px;
+        }
+
+        textarea {
+            width: 600px;
+            height: 136px;
+        }
+    }
+
+    .card-body {
+        .card-text {
+            width: 40%;
+        }
+    }
+
+    .submit-place {
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 16px;
+
+        .sumbit-p {
+            width: 351px;
+        }
+
+        .btn {
+            width: 200px;
+            color: white;
+            background-color: red;
+            border-radius: 16px;
+
+        }
+    }
+}

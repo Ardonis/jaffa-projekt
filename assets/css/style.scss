@@ -1,5 +1,9 @@
 @import "general";
 @import "_product-show";
+@import "_we-do";
+@import "_footer";
+@import "about-us";
+@import "contact-us";
 
 .navbar {
     .collapse {
@@ -77,6 +81,25 @@
 
 .title {
     font-size: 40px;
+    align-items: flex-start;
+}
+
+.submit-place {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 16px;
+
+    .sumbit-p {
+        width: 351px;
+    }
+
+    .btn {
+        width: 200px;
+        color: white;
+        background-color: red;
+        border-radius: 16px;
+
+    }
 }
 
 .features {
@@ -278,38 +301,5 @@
         display: flex;
         flex-direction: column;
         align-content: center;
-    }
-}
-
-
-
-
-
-footer {
-    .footer {
-        background-color: #dfdbdb;
-        align-items: center;
-        justify-content: center;
-        text-decoration: none;
-
-        .social-media {
-            width: 100%;
-            height: 180px;
-            display: flex;
-            justify-content: space-around;
-
-        }
-
-        .link {
-            ul {
-                list-style: none;
-
-                li {
-                    line-height: 2.5rem;
-                }
-            }
-
-        }
-
     }
 }

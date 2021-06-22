@@ -1,3 +1,4 @@
+@charset "UTF-8";
 p,
 h1,
 h2,
@@ -42,6 +43,196 @@ h1 {
 #productView .carousel-indicators img {
   border-radius: 42px;
   border: solid 1px #c4c4c4;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 58px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+
+.slider-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+
+.owl-carousel .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.owl-carousel .item p {
+  padding: 20px;
+}
+
+.owl-carousel .item .quotes span {
+  color: red;
+  font-size: 5rem;
+}
+
+.footer {
+  background-color: #dfdbdb;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-media {
+  width: 100%;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 2.5rem;
+}
+
+.all-rights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.overflow-​hidden {
+  overflow: hidden;
+}
+
+.overflow-​hidden .right-text .card-body {
+  text-align: left;
+}
+
+.card-body .card-text {
+  text-align: center;
+}
+
+.pink-smoothie {
+  background-color: red;
+  padding: 20px;
+}
+
+.pink-smoothie .smoothie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pink-smoothie .smoothie .smoothie-text {
+  color: #ffffff;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.overflow-​hidden {
+  overflow: hidden;
+}
+
+.overflow-​hidden .contact-form {
+  position: relative;
+  background-color: #d4cece;
+}
+
+.overflow-​hidden .contact-form input {
+  width: 280px;
+  height: 68px;
+  border-radius: 16px;
+}
+
+.overflow-​hidden .contact-form textarea {
+  width: 600px;
+  height: 136px;
+}
+
+.overflow-​hidden .card-body .card-text {
+  width: 40%;
+}
+
+.overflow-​hidden .submit-place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-right: 16px;
+}
+
+.overflow-​hidden .submit-place .sumbit-p {
+  width: 351px;
+}
+
+.overflow-​hidden .submit-place .btn {
+  width: 200px;
+  color: white;
+  background-color: red;
+  border-radius: 16px;
 }
 
 .navbar .collapse {
@@ -122,6 +313,30 @@ h1 {
 
 .title {
   font-size: 40px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.submit-place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-right: 16px;
+}
+
+.submit-place .sumbit-p {
+  width: 351px;
+}
+
+.submit-place .btn {
+  width: 200px;
+  color: white;
+  background-color: red;
+  border-radius: 16px;
 }
 
 .features {
@@ -334,34 +549,5 @@ h1 {
           flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
-}
-
-footer .footer {
-  background-color: #dfdbdb;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-decoration: none;
-}
-
-footer .footer .social-media {
-  width: 100%;
-  height: 180px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-footer .footer .link ul {
-  list-style: none;
-}
-
-footer .footer .link ul li {
-  line-height: 2.5rem;
 }
 /*# sourceMappingURL=style.css.map */
